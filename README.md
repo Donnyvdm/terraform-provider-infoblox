@@ -15,14 +15,14 @@ Building The Provider
 Clone repository to: `$GOPATH/src/github.com/sky-uk/terraform-provider-infoblox`
 
 ```sh
-$ mkdir -p $GOPATH/src/github.com/sky-uk; cd $GOPATH/src/github.com/sky-uk
-$ git clone git@github.com:sky-uk/terraform-provider-infoblox
+$ mkdir -p $GOPATH/src/github.com/Donnyvdm; cd $GOPATH/src/github.com/Donnyvdm
+$ git clone git@github.com:Donnyvdm/terraform-provider-infoblox
 ```
 
 Enter the provider directory and build the provider
 
 ```sh
-$ cd $GOPATH/src/github.com/sky-uk/terraform-provider-infoblox
+$ cd $GOPATH/src/github.com/Donnyvdm/terraform-provider-infoblox
 $ make build
 ```
 
