@@ -39,8 +39,8 @@ func Provider() terraform.ResourceProvider {
 			"wapi_version": &schema.Schema{
 				Type:        schema.TypeString,
 				Optional:    true,
-				Description: "Infoblox WAPI server version, defaults to v2.6.1",
-				Default:     "v2.6.1",
+				DefaultFunc: schema.EnvDefaultFunc("INFOBLOX_WAPI", nil),
+				Description: "Infoblox WAPI server version",
 			},
 			"timeout": &schema.Schema{
 				Type:        schema.TypeInt,
